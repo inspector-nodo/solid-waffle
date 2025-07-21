@@ -1,2 +1,1 @@
-
-=IFERROR(SMALL(IF(SUMPRODUCT(--ISNUMBER(SEARCH($D$1:$D$2, $A$2:$A$20)))>0, ROW($A$2:$A$20)-ROW($A$2)+1), ROW(1:1)), "")
+pattern = re.compile(r'^adg\.zxdr2hde\(base64\.b64decode\(["\'](.+?)["\']\)\)')
